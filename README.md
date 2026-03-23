@@ -9,7 +9,7 @@ Uses a [Conventional Commits](https://www.conventionalcommits.org/)-style templa
 ### Setup
 
 ```bash
-curl -sSL https://github.com/h-s-a-m/gitconfig/main/install.sh | bash -s -- https://github.com/OWNER/REPO
+curl -fsSL https://raw.githubusercontent.com/h-s-a-m/gitconfig/refs/heads/main/install.sh | bash
 ```
 
 This copies the template to `~/.gitmessage` and sets `commit.template` globally. The clone is removed after install.
