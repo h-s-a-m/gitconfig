@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
 set -e
 
 REPO_URL="https://github.com/h-s-a-m/gitconfig"
